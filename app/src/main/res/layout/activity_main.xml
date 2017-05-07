@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raas.iak3.MainActivity">
+
+    <ImageView
+        android:id="@+id/wall1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        style="@style/tittle"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bwabwabwa!!!"
+        android:layout_below="@+id/wall1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:background="@color/merah"
+        android:id="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/download"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="2159dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView"
+                android:text="jadi begini pada suatu hari ada seorang wanita yang memiliki sepatu berhak hak sepatunya sangat tinggi
+        karna wanita tersebut ingin terlihat tinggi,kenapa demikian?karna wanita itu berhak untuk tinggi...lalu
+        karna wanita tersebut ingin mempertahankan dan menjunjung tinggi hak wanita yang tinggi maka wanita
+        tersebut berteriak sambil menggunak hak tinggi,saya berhak tinggi karna saya berhak untuk tinggi maka
+        sebagai wanita jangan malu untuk berhak tinggi karna kita berhak untuk tinggi dan oleh sebab itu kita
+        harus pede berhak tinggi karna kita berhak tinggi dan berhak untuk tinggi.....dari cerita di atas
+        berapakah kata sifat dan kata benda?"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
